@@ -9,7 +9,7 @@
   "rules": {
     "@typescript-eslint/no-var-requires": 0,
     // "eqeqeq":"error"
-    "no-unused-vars": "warn"
-    // "@typescript-eslint/no-unused-vars": "warn"
+    "no-unused-vars": "warn",
+    "@typescript-eslint/no-unused-vars": "warn"
   }
 }

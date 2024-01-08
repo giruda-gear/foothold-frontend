@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import MenuLink from './menuLink/menuLink'
 import styles from './sidebar.module.css'
-import { MdSpaceDashboard } from 'react-icons/md'
+import { MdSpaceDashboard, MdLogout } from 'react-icons/md'
 import { RiDashboard3Fill } from 'react-icons/ri'
 import { HiBookmarkAlt } from 'react-icons/hi'
 
@@ -55,7 +55,7 @@ export default function Sidebar() {
           alt=""
         />
         <div>
-          <span className={styles.userName}>Strangerlplplplplplplplpl</span>
+          <span className={styles.userName}>Hey, Stranger</span>
         </div>
       </div>
       <ul>
@@ -68,6 +68,10 @@ export default function Sidebar() {
           </li>
         ))}
       </ul>
+      <button className={styles.logout}>
+        <MdLogout />
+        Logout
+      </button>
     </div>
   )
 }

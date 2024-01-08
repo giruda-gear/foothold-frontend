@@ -20,3 +20,21 @@
   border-radius: 50%;
   object-fit: cover;
 }
+
+.logout {
+  width: 100%;
+  color: var(--text);
+  padding: 20px;
+  margin: 5px 0;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 10px;
+  background: none;
+  border: none;
+}
+
+.logout:hover {
+  background-color: var(--bgHover);
+}

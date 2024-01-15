@@ -1,5 +1,5 @@
 export default function Home() {
   return (
-   <div>HELLO</div>
+    <h1 className="text-2xl text-blue-600 font-bold underline">Hello world!</h1>
   )
 }

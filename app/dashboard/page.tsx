@@ -1,4 +1,5 @@
 import Card from '../ui/dashboard/card/card'
+import Chart from '../ui/dashboard/chart/chart'
 import styles from '../ui/dashboard/dashboard.module.css'
 import Materials from '../ui/dashboard/materials/materials'
 import RightBar from '../ui/dashboard/rightbar/rightbar'
@@ -13,15 +14,7 @@ export default function DashBoard() {
           <Card title="Topics" />
         </div>
         <Materials />
-        <div>something new!</div>
-        <div>something new!!</div>
-        <div>something new!!</div>
-        <div>something new!!</div>
-        <div>something new!!</div>
-        <div>something new!!</div>
-        <div>something new!!</div>
-        <div>something new!!</div>
-        <div>something new!!</div>
+        <Chart />
         <div>something new!!</div>
         <div>something new!!</div>
         <div>something new!!</div>
@@ -30,7 +23,9 @@ export default function DashBoard() {
         <div>something new!!</div>
         <div>something new!!</div>
       </div>
-      <RightBar />
+      <div className="flex-1">
+        <RightBar />
+      </div>
     </div>
   )
 }

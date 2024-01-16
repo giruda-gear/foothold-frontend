@@ -2,8 +2,8 @@
 
 export default function Materials() {
   return (
-    <div className="bg-bgSoft p-2.5 rounded-[10px]">
-      <h2 className="text-textSoft font-[200]">Latest Materials</h2>
+    <div className="rounded-[10px] bg-bgSoft p-2.5">
+      <h2 className="font-[200] text-textSoft">Latest Materials</h2>
       <table className="w-full [&_td]:p-2.5">
         <thead>
           <tr>
@@ -18,7 +18,7 @@ export default function Materials() {
             <td>more than</td>
             <td>Live Academy</td>
             <td>
-              <span className="p-[5px] text-sm bg-[#afd6ee75] rounded-md">
+              <span className="rounded-md bg-[#afd6ee75] p-[5px] text-sm">
                 ongoing
               </span>
             </td>
@@ -28,7 +28,7 @@ export default function Materials() {
             <td>would have done</td>
             <td>News Article</td>
             <td>
-              <span className="p-[5px] text-sm bg-[#f7cb7375] rounded-md">
+              <span className="rounded-md bg-[#f7cb7375] p-[5px] text-sm">
                 pending
               </span>
             </td>

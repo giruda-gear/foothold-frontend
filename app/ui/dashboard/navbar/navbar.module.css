@@ -11,20 +11,3 @@
   color: var(--textSoft);
   text-transform: capitalize;
 }
-
-.search {
-  padding: 10px;
-  border-radius: 10px;
-  gap: 10px;
-  display: flex;
-  align-items: center;
-  background-color: var(--bgHover);
-}
-
-.input {
-  background-color: transparent;
-  color: var(--text);
-  border: none;
-  outline: none;
-  width: 140px;
-}

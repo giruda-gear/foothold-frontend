@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import MenuLink from './menuLink/menuLink'
 import styles from './sidebar.module.css'
-import { MdSpaceDashboard, MdLogout } from 'react-icons/md'
+import { MdSpaceDashboard, MdLogout, MdOutlineNotes } from 'react-icons/md'
 import { RiDashboard3Fill } from 'react-icons/ri'
 import { HiBookmarkAlt } from 'react-icons/hi'
 
@@ -15,32 +15,37 @@ const menuItems = [
         icon: <MdSpaceDashboard />,
       },
       {
+        title: 'Note',
+        path: '/dashboard/note',
+        icon: <MdOutlineNotes />,
+      },
+      {
         title: 'Schedule',
-        path: '/schedule',
+        path: '/dashboard/schedule',
         icon: <RiDashboard3Fill />,
       },
     ],
   },
-  {
-    title: 'DIFFICULTY',
-    list: [
-      {
-        title: 'Easy',
-        path: '/easy',
-        icon: <HiBookmarkAlt />,
-      },
-      {
-        title: 'Medium',
-        path: '/medium',
-        icon: <HiBookmarkAlt />,
-      },
-      {
-        title: 'Hard',
-        path: '/hard',
-        icon: <HiBookmarkAlt />,
-      },
-    ],
-  },
+  // {
+  //   title: 'DIFFICULTY',
+  //   list: [
+  //     {
+  //       title: 'Easy',
+  //       path: '/easy',
+  //       icon: <HiBookmarkAlt />,
+  //     },
+  //     {
+  //       title: 'Medium',
+  //       path: '/medium',
+  //       icon: <HiBookmarkAlt />,
+  //     },
+  //     {
+  //       title: 'Hard',
+  //       path: '/hard',
+  //       icon: <HiBookmarkAlt />,
+  //     },
+  //   ],
+  // },
 ]
 
 export default function Sidebar() {

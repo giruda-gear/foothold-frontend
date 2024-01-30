@@ -15,8 +15,8 @@ const menuItems = [
         icon: <MdSpaceDashboard />,
       },
       {
-        title: 'Note',
-        path: '/dashboard/note',
+        title: 'Notes',
+        path: '/dashboard/notes',
         icon: <MdOutlineNotes />,
       },
       {

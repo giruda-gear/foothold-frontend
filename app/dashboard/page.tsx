@@ -1,7 +1,7 @@
 import Card from '../ui/dashboard/card/card'
 import Chart from '../ui/dashboard/chart/chart'
 import styles from '../ui/dashboard/dashboard.module.css'
-import Materials from '../ui/dashboard/materials/materials'
+import Notes from '../ui/dashboard/notes/notes'
 import RightBar from '../ui/dashboard/rightbar/rightbar'
 
 export default function DashBoard() {
@@ -13,7 +13,7 @@ export default function DashBoard() {
           <Card title="Difficuclty" />
           <Card title="Topics" />
         </div>
-        <Materials />
+        <Notes />
         <Chart />
         <div>something new!!</div>
         <div>something new!!</div>

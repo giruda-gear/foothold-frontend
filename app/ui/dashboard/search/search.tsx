@@ -8,7 +8,7 @@ export default function Search({
   placeholder?: string
 }) {
   return (
-    <div className="bg-bgHover flex items-center gap-3 rounded-lg p-3">
+    <div className="bg-bgHazy flex items-center gap-3 rounded-lg p-3">
       <input
         type="text"
         className="border-none bg-transparent text-white outline-none"

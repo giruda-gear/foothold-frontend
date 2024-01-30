@@ -8,7 +8,7 @@ module.exports = {
       colors: {
         'bg': 'var(--bg)',
         'bgSoft': 'var(--bgSoft)',
-        'bgHover': 'var(--bgHover)',
+        'bgHazy': 'var(--bgHazy)',
         'textSoft': 'var(--textSoft)'
       }
     },

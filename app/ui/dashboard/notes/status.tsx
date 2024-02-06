@@ -6,11 +6,11 @@ interface CheckedItems {
   [key: string]: boolean
 }
 
-export default function NoteStatus() {
+export default function NoteStatus({ status }: { status: number }) {
   const [checkedItems, setCheckedItems] = useState<CheckedItems>({
-    checkbox1: false,
-    checkbox2: false,
-    checkbox3: false,
+    checkbox1: status >= 1,
+    checkbox2: status >= 2,
+    checkbox3: status >= 3,
   })
 
   const handleCheckboxChange = (checkboxName: string) => {
@@ -31,7 +31,7 @@ export default function NoteStatus() {
             onChange={() => handleCheckboxChange(key)}
           />
           {checkedItems[key] ? (
-            <IoMdCheckboxOutline size="25" />
+            <IoMdCheckboxOutline size="25" style={{ color: 'pink' }} />
           ) : (
             <MdCheckBoxOutlineBlank size="25" />
           )}

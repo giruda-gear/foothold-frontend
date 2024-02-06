@@ -3,7 +3,6 @@ import MenuLink from './menuLink/menuLink'
 import styles from './sidebar.module.css'
 import { MdSpaceDashboard, MdLogout, MdOutlineNotes } from 'react-icons/md'
 import { RiDashboard3Fill } from 'react-icons/ri'
-import { HiBookmarkAlt } from 'react-icons/hi'
 
 const menuItems = [
   {

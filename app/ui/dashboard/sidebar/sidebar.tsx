@@ -23,6 +23,11 @@ const menuItems = [
         path: '/dashboard/schedule',
         icon: <RiDashboard3Fill />,
       },
+      {
+        title: 'Amino Acids',
+        path: '/dashboard/amino-acids',
+        icon: <RiDashboard3Fill />,
+      },
     ],
   },
   // {

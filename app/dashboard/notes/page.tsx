@@ -44,7 +44,7 @@ export default function NotesPage() {
     <div className="mt-5 rounded-lg bg-bgSoft p-5">
       <div className="flex items-center justify-between">
         <Search onClick={handleSearch} placeholder="Search .." />
-        <Link href="/dashboard/notes/add">
+        <Link href="/dashboard/notes/new">
           <button className="rounded-md bg-[#5d57c9] p-2.5">New</button>
         </Link>
       </div>
